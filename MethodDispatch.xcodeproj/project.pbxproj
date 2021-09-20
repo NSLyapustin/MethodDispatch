@@ -13,6 +13,9 @@
 		05202E4126F8E34800F2EDA4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05202E3F26F8E34800F2EDA4 /* Main.storyboard */; };
 		05202E4326F8E34A00F2EDA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05202E4226F8E34A00F2EDA4 /* Assets.xcassets */; };
 		05202E4626F8E34A00F2EDA4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05202E4426F8E34A00F2EDA4 /* LaunchScreen.storyboard */; };
+		05202E5026F8E4D100F2EDA4 /* StaticDispatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05202E4F26F8E4D100F2EDA4 /* StaticDispatch.swift */; };
+		05202E5326F8E99A00F2EDA4 /* TableDispatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05202E5226F8E99A00F2EDA4 /* TableDispatch.swift */; };
+		05202E5726F8EF1C00F2EDA4 /* NSObjectDispatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05202E5626F8EF1C00F2EDA4 /* NSObjectDispatch.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		05202E4226F8E34A00F2EDA4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		05202E4526F8E34A00F2EDA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		05202E4726F8E34A00F2EDA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05202E4F26F8E4D100F2EDA4 /* StaticDispatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaticDispatch.swift; sourceTree = "<group>"; };
+		05202E5226F8E99A00F2EDA4 /* TableDispatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableDispatch.swift; sourceTree = "<group>"; };
+		05202E5626F8EF1C00F2EDA4 /* NSObjectDispatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSObjectDispatch.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +62,7 @@
 		05202E3826F8E34800F2EDA4 /* MethodDispatch */ = {
 			isa = PBXGroup;
 			children = (
+				05202E4D26F8E44500F2EDA4 /* MethodDispatch */,
 				05202E3926F8E34800F2EDA4 /* AppDelegate.swift */,
 				05202E3B26F8E34800F2EDA4 /* SceneDelegate.swift */,
 				05202E3D26F8E34800F2EDA4 /* ViewController.swift */,
@@ -65,6 +72,40 @@
 				05202E4726F8E34A00F2EDA4 /* Info.plist */,
 			);
 			path = MethodDispatch;
+			sourceTree = "<group>";
+		};
+		05202E4D26F8E44500F2EDA4 /* MethodDispatch */ = {
+			isa = PBXGroup;
+			children = (
+				05202E5A26F8F22A00F2EDA4 /* NSObjectDispatch */,
+				05202E5926F8F21F00F2EDA4 /* TableDispatch */,
+				05202E5826F8F21300F2EDA4 /* StaticDispatch */,
+			);
+			path = MethodDispatch;
+			sourceTree = "<group>";
+		};
+		05202E5826F8F21300F2EDA4 /* StaticDispatch */ = {
+			isa = PBXGroup;
+			children = (
+				05202E4F26F8E4D100F2EDA4 /* StaticDispatch.swift */,
+			);
+			path = StaticDispatch;
+			sourceTree = "<group>";
+		};
+		05202E5926F8F21F00F2EDA4 /* TableDispatch */ = {
+			isa = PBXGroup;
+			children = (
+				05202E5226F8E99A00F2EDA4 /* TableDispatch.swift */,
+			);
+			path = TableDispatch;
+			sourceTree = "<group>";
+		};
+		05202E5A26F8F22A00F2EDA4 /* NSObjectDispatch */ = {
+			isa = PBXGroup;
+			children = (
+				05202E5626F8EF1C00F2EDA4 /* NSObjectDispatch.swift */,
+			);
+			path = NSObjectDispatch;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,9 +178,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				05202E5326F8E99A00F2EDA4 /* TableDispatch.swift in Sources */,
+				05202E5726F8EF1C00F2EDA4 /* NSObjectDispatch.swift in Sources */,
 				05202E3E26F8E34800F2EDA4 /* ViewController.swift in Sources */,
 				05202E3A26F8E34800F2EDA4 /* AppDelegate.swift in Sources */,
 				05202E3C26F8E34800F2EDA4 /* SceneDelegate.swift in Sources */,
+				05202E5026F8E4D100F2EDA4 /* StaticDispatch.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
