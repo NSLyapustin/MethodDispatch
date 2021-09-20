@@ -56,6 +56,7 @@
 		05202E3826F8E34800F2EDA4 /* MethodDispatch */ = {
 			isa = PBXGroup;
 			children = (
+				05202E4D26F8E44500F2EDA4 /* MethodDispatch */,
 				05202E3926F8E34800F2EDA4 /* AppDelegate.swift */,
 				05202E3B26F8E34800F2EDA4 /* SceneDelegate.swift */,
 				05202E3D26F8E34800F2EDA4 /* ViewController.swift */,
@@ -63,6 +64,13 @@
 				05202E4226F8E34A00F2EDA4 /* Assets.xcassets */,
 				05202E4426F8E34A00F2EDA4 /* LaunchScreen.storyboard */,
 				05202E4726F8E34A00F2EDA4 /* Info.plist */,
+			);
+			path = MethodDispatch;
+			sourceTree = "<group>";
+		};
+		05202E4D26F8E44500F2EDA4 /* MethodDispatch */ = {
+			isa = PBXGroup;
+			children = (
 			);
 			path = MethodDispatch;
 			sourceTree = "<group>";
