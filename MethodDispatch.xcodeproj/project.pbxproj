@@ -15,6 +15,7 @@
 		05202E4626F8E34A00F2EDA4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05202E4426F8E34A00F2EDA4 /* LaunchScreen.storyboard */; };
 		05202E5026F8E4D100F2EDA4 /* StaticDispatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05202E4F26F8E4D100F2EDA4 /* StaticDispatch.swift */; };
 		05202E5326F8E99A00F2EDA4 /* TableDispatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05202E5226F8E99A00F2EDA4 /* TableDispatch.swift */; };
+		05202E5726F8EF1C00F2EDA4 /* NSObjectDispatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05202E5626F8EF1C00F2EDA4 /* NSObjectDispatch.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		05202E4726F8E34A00F2EDA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		05202E4F26F8E4D100F2EDA4 /* StaticDispatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaticDispatch.swift; sourceTree = "<group>"; };
 		05202E5226F8E99A00F2EDA4 /* TableDispatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableDispatch.swift; sourceTree = "<group>"; };
+		05202E5626F8EF1C00F2EDA4 /* NSObjectDispatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSObjectDispatch.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 			children = (
 				05202E4F26F8E4D100F2EDA4 /* StaticDispatch.swift */,
 				05202E5226F8E99A00F2EDA4 /* TableDispatch.swift */,
+				05202E5626F8EF1C00F2EDA4 /* NSObjectDispatch.swift */,
 			);
 			path = MethodDispatch;
 			sourceTree = "<group>";
@@ -152,6 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				05202E5326F8E99A00F2EDA4 /* TableDispatch.swift in Sources */,
+				05202E5726F8EF1C00F2EDA4 /* NSObjectDispatch.swift in Sources */,
 				05202E3E26F8E34800F2EDA4 /* ViewController.swift in Sources */,
 				05202E3A26F8E34800F2EDA4 /* AppDelegate.swift in Sources */,
 				05202E3C26F8E34800F2EDA4 /* SceneDelegate.swift in Sources */,
