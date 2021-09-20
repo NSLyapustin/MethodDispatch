@@ -77,11 +77,35 @@
 		05202E4D26F8E44500F2EDA4 /* MethodDispatch */ = {
 			isa = PBXGroup;
 			children = (
-				05202E4F26F8E4D100F2EDA4 /* StaticDispatch.swift */,
-				05202E5226F8E99A00F2EDA4 /* TableDispatch.swift */,
-				05202E5626F8EF1C00F2EDA4 /* NSObjectDispatch.swift */,
+				05202E5A26F8F22A00F2EDA4 /* NSObjectDispatch */,
+				05202E5926F8F21F00F2EDA4 /* TableDispatch */,
+				05202E5826F8F21300F2EDA4 /* StaticDispatch */,
 			);
 			path = MethodDispatch;
+			sourceTree = "<group>";
+		};
+		05202E5826F8F21300F2EDA4 /* StaticDispatch */ = {
+			isa = PBXGroup;
+			children = (
+				05202E4F26F8E4D100F2EDA4 /* StaticDispatch.swift */,
+			);
+			path = StaticDispatch;
+			sourceTree = "<group>";
+		};
+		05202E5926F8F21F00F2EDA4 /* TableDispatch */ = {
+			isa = PBXGroup;
+			children = (
+				05202E5226F8E99A00F2EDA4 /* TableDispatch.swift */,
+			);
+			path = TableDispatch;
+			sourceTree = "<group>";
+		};
+		05202E5A26F8F22A00F2EDA4 /* NSObjectDispatch */ = {
+			isa = PBXGroup;
+			children = (
+				05202E5626F8EF1C00F2EDA4 /* NSObjectDispatch.swift */,
+			);
+			path = NSObjectDispatch;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
